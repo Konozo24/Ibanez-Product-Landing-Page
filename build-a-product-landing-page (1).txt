@@ -133,7 +133,7 @@
 
 ** start of undefined **
 
-::root{--text: hsl(228,12%, 48%); --white: #FCFBF4;
+:root{--text: hsl(228,12%, 48%); --white: #FCFBF4;
 }
 
 body{background-color:  var(--white);
@@ -149,7 +149,7 @@ margin: 0;
 box-sizing: border-box;
 }
 
-img{width:125;
+img{width:125px;
 object-fit:contain;
 }
 
@@ -269,8 +269,8 @@ width:500px;
 border-radius:5px;
 margin-left:20px;}
 
-@media only screen and(min-width:600px){#nav-bar{flex-direction:row;}
-}
+@media only screen and (min-width:600px){#nav-bar{flex-direction:row;}
+} 
 
 
 
